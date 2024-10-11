@@ -1,0 +1,141 @@
+.Header {
+    display: flex;
+    background-color: rgb(83, 68, 126);
+    align-items: center;
+    justify-content: space-between;
+    padding: .2rem .4rem;
+    height: 100px;
+}
+
+.HUH {
+    width: 6rem;
+}
+
+.Me{
+    border-radius: 10px;
+}
+
+.Buttons {
+    display: flex;
+    font-family: Lucida;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    font-family: Times;
+}
+
+.egg {
+    color: rgb(83, 68, 126);
+    border-style: double;
+    border-color: rgb(71, 147, 96);
+    border-radius: 35px;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    font-style: none;
+    margin: 5 px 5px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    align-content: center;
+    font-weight: 800;
+    background-color:rgb(256, 242, 208)
+}
+
+.egg:hover {
+    background-color:#479360;
+    color: #ffffff;
+}
+
+.Profile {
+    border: 5px solid rgb(71, 147, 96);
+    background-color: rgb(83, 68, 126);
+    color: rgb(256, 242, 208);
+    align-content: center;
+    text-align: center;
+    font-family: Verdana;
+    border-radius: 40px;
+    margin: 15px;
+    padding: 8px;
+    float: left;
+h5 {
+    text-align: left;
+    font-family: Tahoma;
+    margin-left: 4rem;
+}
+}
+
+.Introduction {
+    border: 5px solid rgb(71, 147, 96);
+    align-content: center;
+    text-align: center;
+    font-family: Verdana;
+    border-radius: 40px;
+    margin: 15px;
+    padding: 5px;
+    background-color: rgb(83, 68, 126);
+    color: rgb(256, 242, 208)
+    }
+
+h4 {
+    text-align: left;
+    margin-left: 6rem;
+
+}
+
+h5 {
+    text-align: left;
+    margin-left: 10rem;
+    font-family: Tahoma;
+}
+
+hr {
+    width:80%;
+}
+
+.Socials {
+    display: flex;
+    font-family: Lucida;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.bacon {
+    color: rgb(83, 68, 126);
+    border-style: double;
+    border-color: rgb(71, 147, 96);
+    border-radius: 35px;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    font-style: none;
+    margin: 5 px 5px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    align-content: center;
+    font-weight: 800;
+
+    background-color:rgb(256, 242, 208)
+}
+
+/*SCROLLBAR*/
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(256, 242, 208)
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(83, 68, 126)
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(71, 147, 96)
+}
+
