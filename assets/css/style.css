@@ -118,9 +118,14 @@ hr {
     transition-duration: 0.5s;
     align-content: center;
     font-weight: 800;
-
     background-color:rgb(256, 242, 208)
 }
+
+.bacon:hover {
+    background-color:#479360;
+    color: #ffffff;
+}
+
 
 /*SCROLLBAR*/
 ::-webkit-scrollbar {
